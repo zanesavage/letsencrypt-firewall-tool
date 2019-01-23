@@ -51,3 +51,7 @@ then
  echo $add2 > add2old.txt
  echo "Access rulse updated for new address for outbound2.letsencrypt.org."
 fi
+
+#Deletes Temporary files used by software
+rm add1.txt
+rm add2.txt
